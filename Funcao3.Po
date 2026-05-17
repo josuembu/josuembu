@@ -1,0 +1,34 @@
+programa
+{
+     funcao inteiro MaiorNumero (inteiro a, inteiro b,inteiro c){
+     	se(a>b e a>c){
+     		retorne  a
+     	}
+     	senao se(b>a e b>c){
+     		retorne b
+     	}
+     	senao{
+     		retorne c
+     	
+     		
+     	}
+     	
+     		
+     	
+     	
+     }
+	
+	funcao inicio()
+	{
+		inteiro n1,n2,n3
+		inteiro resultado
+		escreva(" digite o primeiro numero ")
+		leia(n1)
+		escreva(" digite o segundo numero ")
+		leia(n2)
+		escreva(" digite o terceiro numero")
+		leia(n3)
+		resultado=MaiorNumero(n1,n2,n3)
+		escreva(" o maior numero digitado e", resultado)
+	}
+}
