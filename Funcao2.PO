@@ -1,0 +1,24 @@
+programa
+{
+     funcao cadeia VerifiqueNumero(real n){
+     	se(n>0){
+     		retorne "positivo"
+     	}
+     	senao se(n<0){
+     		retorne"negativo"
+     	}
+     	senao{
+     		retorne "zero"
+     	}
+     }
+	
+	funcao inicio()
+	{
+	real numero
+	cadeia resultado
+	escreva("digite um numero ")
+	leia(numero)
+	resultado=VerifiqueNumero(numero)
+	escreva("o numero digitado e ", resultado)
+	}
+}
