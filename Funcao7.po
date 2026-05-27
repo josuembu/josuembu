@@ -1,0 +1,25 @@
+programa
+{
+     funcao logico EhPar(inteiro n){
+     	
+     	se(n%2==0){
+     		retorne verdadeiro
+     	}
+     	senao{
+     		retorne falso
+     		
+     	}
+     }
+	
+	funcao inicio()
+	{
+	inteiro numero
+	leia(numero)
+	se(EhPar(numero)){
+		escreva(" O numero e par")
+	}
+	senao{
+		escreva("O numero e impar")
+	}
+	}
+}
