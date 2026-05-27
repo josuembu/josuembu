@@ -1,0 +1,20 @@
+programa
+{
+     funcao inteiro fatorial(inteiro n){
+     	inteiro i,fat=1
+     	para(i=1;i<n;i++){
+     		fat=fat*i
+     		
+     	}
+     	retorne fat
+     }
+	
+	funcao inicio()
+	{
+	inteiro numero
+	escreva("digite um numero")
+	leia(numero)
+	escreva("fatorial= ",fatorial(numero))
+	
+	}
+}
