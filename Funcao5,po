@@ -1,0 +1,33 @@
+programa
+{
+	inclua biblioteca Util
+-->u
+	funcao  vazio RolarDado(inteiro vezes,inteiro faces,inteiro contagem[]){
+		inteiro i, dado
+		
+		para(i=1;i<faces;i++){
+			contagem[i]=0
+		}
+		para(i=1;i<vezes;i++){
+			dado=u.sorteia(1, faces)
+			contagem[dado]++
+		}
+		para(i=1;i<faces;i++){
+			escreva("numero ", i , "saiu ", contagem[i], " vezes\n")
+		}
+		
+	}
+	
+
+	
+	funcao inicio()
+	{
+	inteiro vezes,faces,contagem[100]
+	escreva("quantidade de jogadas: ")
+	leia(vezes)
+	escreva ("Quantidade do faces do dado : ")
+	leia(faces)
+	RolarDado(vezes,faces,contagem)
+		
+	}
+}
