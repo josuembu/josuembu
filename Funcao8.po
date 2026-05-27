@@ -1,0 +1,14 @@
+programa
+{
+     funcao real celsiusParaFahrenheit(real c){
+     	retorne (c*9/5)+32
+     }
+	
+	funcao inicio()
+	{
+	real celsius
+	escreva(" digite a temperatura")
+	leia(celsius)
+	escreva(" fahrenheit= ",celsiusParaFahrenheit(celsius))
+	}
+}
