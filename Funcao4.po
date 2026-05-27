@@ -1,0 +1,30 @@
+programa
+{
+	inclua biblioteca Util
+-->u
+	
+	funcao inteiro contarSeis ( inteiro vezes){
+		inteiro i,dado,contador=0
+		para(i=1;i<vezes;i++){
+		dado=u.sorteia(1, 6)
+		se(dado==6){
+			contador++
+		}
+	}
+	retorne contador
+	}
+
+	
+
+	
+	funcao inicio()
+	{
+	inteiro vezes, quantidade
+	escreva("Quantas vezes voce deseja rolar o dado")
+	leia(vezes)
+	quantidade=contarSeis(vezes)
+	escreva(" o numero 6 apareceu ", quantidade," vezes "
+	)
+	
+	}
+}
