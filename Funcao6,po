@@ -1,0 +1,19 @@
+programa
+{
+    funcao inteiro SomaValor(inteiro a,inteiro b){
+    	retorne a+b
+    	
+    }
+	
+	funcao inicio()
+	{
+	inteiro x,y, resultado
+	escreva(" digite o primeiro numero ")
+	leia(x)
+	escreva(" digite o segundo numero ")
+	leia(y)
+	resultado= SomaValor(x,y)
+	escreva(" a soma e " , resultado)
+		
+	}
+}
