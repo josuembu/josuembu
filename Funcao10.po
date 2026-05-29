@@ -1,0 +1,29 @@
+programa
+{
+
+ 
+	funcao inteiro SomarArray(inteiro valores[]){
+		inteiro i 
+		inteiro soma=0
+		para(i=0;i<5;i++){
+			soma=soma+valores[i]
+		}
+		retorne soma
+	}
+	
+	funcao inicio()
+	{
+	inteiro numeros[5]
+	inteiro i,resultado=0
+	
+	
+	para(i=0;i<5;i++){
+		escreva("digite um numero ")
+	     leia(numeros[i])
+		resultado=SomarArray(numeros)
+		
+		
+	}
+	escreva("a soma e ", resultado)
+	}
+}
