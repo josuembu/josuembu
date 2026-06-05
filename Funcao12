@@ -1,0 +1,73 @@
+programa
+{
+	inclua biblioteca Util
+-->u
+	
+	//Crie um programa que tenha um menu
+//principal com as seguintes funcionalidades:
+//❖ 1 – Ler vetor
+//❖ 2 – Gerar vetor aleatório
+//❖ 3 – Imprimir vetor
+//❖ 4 – Sair
+	funcao vazio LerVetor(inteiro v[]){
+		inteiro i
+		para(i=0;i<5;i++){
+			escreva(" digite o valor da posicao: ")
+			
+			leia(v[i])
+		}
+	}
+	funcao vazio GerarVetor(inteiro v[]){
+		inteiro i
+		
+		para(i=0;i<5;i++){
+			v[i]=u.sorteia(1, 99)
+		}
+		
+	}
+	funcao vazio ImprimeVetor(inteiro v[]){
+		inteiro i 
+		para(i=0;i<5;i++){
+			escreva(v[i], " ")
+			
+			
+		}
+		escreva("\n")
+		
+	}
+	
+	
+	
+	
+	funcao inicio()
+	{
+	inteiro vetor[5]
+	inteiro opcao
+	
+	faca{
+		escreva("\n=== menu ===\n")
+		escreva("1-ler vetor\n")
+		escreva("2-gerar vetor\n")
+		escreva("3-imprime vetor \n")
+		escreva("4 sair \n")
+		escreva("escolha uma opcao")
+		leia(opcao)
+		escolha(opcao){
+		caso 1:
+		LerVetor(vetor)
+		pare
+		caso 2:
+		GerarVetor(vetor)
+		pare
+		caso 3:
+		ImprimeVetor(vetor)
+		caso 4:
+		escreva("\nPrograma encerrada")
+		caso contrario :
+		escreva(" \nOpcao invalida")
+	}
+	
+	}
+enquanto(opcao !=4)
+  }
+}
