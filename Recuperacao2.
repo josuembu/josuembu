@@ -1,0 +1,49 @@
+programa
+{
+//Todos os exercícios a seguir devem ser feitos utilizando funções e variáveis locais.
+//1. Crie um programa em portugol que tenha um menu inicial com as opções:
+//a. Somar A e B.
+//b. Subtrair B de A.
+//c. Multiplicar A e B
+//d. Sair do programa
+//Ao término de cada operação, o programa deve voltar para esse menu. Cada opção
+//deve ser uma função separada.
+	funcao real Somar(real a, real b){
+		retorne a+b
+	}
+	funcao real subtrair(real a, real b){
+		retorne b-a
+	}
+	funcao real Multiplicar(real a, real b){
+		retorne a*b
+	}
+
+	
+	funcao inicio()
+	{
+	inteiro opcao
+	real x,y
+	faca{
+		escreva("\n=====menu=====\n")
+		escreva("1-Somar a e b\n")
+		escreva("2-subtrair b de a\n")
+		escreva("3-Multiplicar a e b\n")
+		escreva("4-sair da programa \n")
+		escreva(" escolha uma opcao: ")
+		leia(opcao)
+		escolha(opcao){
+			caso 1:
+			pare
+			caso 2:
+			pare
+			caso 3:
+			pare
+			caso 4:
+			escreva(" programma encerrada")
+			caso contrario:
+			escreva(" opcao invalida")
+		}
+	}enquanto(opcao!=4)
+	
+		
+	}
